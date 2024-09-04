@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Pangaea: Title">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="twitter:card" content="summary">
+    <!-- <meta name="twitter:image:src" content="http://https://dginstyle.github.io/dginstyle_logo_square.jpg">-->
+  <meta name="twitter:title" content="Pangaea: Title">
+  <meta name="twitter:description" content="Pangaea: Title">
+  <meta name="twitter:creator" content="@Yuru Jia">
+
+  <title>PANGAEA: TITLE</title>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1FWSVCGZTG"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-1FWSVCGZTG');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title mb-0 pb-0">Pangaea</h1>
+          <h3 class="title is-3 publication-title mt-0 pt-0">Title</h3>
+
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a target="_blank" rel="noopener noreferrer" href="https://arxiv.org/abs/2312.03048"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf" style="color: #ff8038"></i>
+                  </span>
+                  <span>Paper(Coming soon)</span>
+                </a>
+              </span>              
+
+              <span class="link-block">
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github" style="color: rgb(255, 255, 255)"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  $(document).ready(function() {
+    let angle = 0;
+    setInterval(function() {
+      angle += 360/7;
+      $('#rotatingImage').css({
+        'transform': 'rotate(' + angle + 'deg)',
+        'transition': 'transform 0.5s'
+      });
+    }, 3000);
+  });
+</script>
+
+
+
+<section class="section pt-0">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Abstract 
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+<section class="section pt-0">
+  <div class="container is-max-desktop">
+    <!-- Method. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Which problems does PANGAEA solve?</h2>
+        <div class="content has-text-justified">
+          <h3 class="title has-text-centered">
+            Evaluation protocol
+          </h3>
+
+          <p>
+            ...
+          </p>
+
+          <img width="100%" src="./static/images/style_overfit.jpg" alt="Evaluation"/>
+
+          <h3 class="title has-text-centered">
+            Diverse donwstream tasks
+          </h3>
+
+          <p>
+            ...
+          </p>
+
+          <img width="100%" src="./static/images/small_instances.jpg" alt="donwstream task"/>
+
+          <p class="mt-5">
+            Refer to the pdf paper for more details on qualitative, quantitative, and ablation studies.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Method. -->
+  </div>
+</section>
+
+
+
+<!-- <section class="section pt-0" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre class="selectable"><code>@inproceedings{jia2024dginstyle,
+      title     = {DGInStyle: Domain-Generalizable Semantic Segmentation with Image Diffusion Models and Stylized Semantic Control}, 
+      author    = {Yuru Jia and Lukas Hoyer and Shengyu Huang and Tianfu Wang and Luc Van Gool and Konrad Schindler and Anton Obukhov},
+      booktitle = {European Conference on Computer Vision},
+      year      = {2024},
+    }</code></pre>
+  </div>
+</section> -->
+
+<footer class="footer pt-0 pb-0">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            Website template based on
+            <a href="https://github.com/nerfies/nerfies.github.io">
+              Nerfies
+            </a>
+            and licensed under
+            <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+              CC-BY-SA-4.0
+            </a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
