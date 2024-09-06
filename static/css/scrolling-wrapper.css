@@ -12,7 +12,7 @@
 }
 .logo {
     flex: none; /* This ensures that the logos maintain their set width and don't stretch */
-    margin-right: -25%;
+    margin-right: -230px;
 }
 
 .logo img {
