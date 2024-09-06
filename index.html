@@ -12,7 +12,7 @@
   <meta name="twitter:description" content="Pangaea: Title">
   <meta name="twitter:creator" content="@Yuru Jia">
 
-  <title>PANGAEA: TITLE</title>
+  <title>DGInStyle: Domain-Generalizable Semantic Segmentation with Image Diffusion Models and Stylized Semantic Control</title>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-1FWSVCGZTG"></script>
@@ -39,6 +39,7 @@
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
   <link rel="icon" href="./static/images/favicon.png">
+  <link rel="stylesheet" href="./static/css/scrolling-wrapper.css"
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="./static/js/fontawesome.all.min.js"></script>
@@ -87,20 +88,62 @@
   </div>
 </section>
 
-<script>
-  $(document).ready(function() {
-    let angle = 0;
-    setInterval(function() {
-      angle += 360/7;
-      $('#rotatingImage').css({
-        'transform': 'rotate(' + angle + 'deg)',
-        'transition': 'transform 0.5s'
-      });
-    }, 3000);
-  });
-</script>
+
+<!-- Scrolling fms -->
+<section class="gfms teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <div class="image-viewport">
+        <div class="scrolling-wrapper">        
+          <div class="logo"><img src="./static/imgs/satlasnet.png" alt="SATLASNET Logo"></div>
+          <div class="logo"><img src="./static/imgs/GFM.png" alt="GFM Logo"></div>
+          <div class="logo"><img src="./static/imgs/CROMA.png" alt="CROMA Logo"></div>
+          <div class="logo"><img src="./static/imgs/scalemae.png" alt="SCALEMAE Logo"></div>
+          <div class="logo"><img src="./static/imgs/prithvi.png" alt="Prithvi Logo"></div>
+          <div class="logo"><img src="./static/imgs/SpectralGPT.png" alt="SpectralGPT Logo"></div>
+          <div class="logo"><img src="./static/imgs/remoteclip.png" alt="REMOTECLIP Logo"></div>
+          <div class="logo"><img src="./static/imgs/DOFA.png" alt="DOFA Logo"></div>
+          <div class="logo"><img src="./static/imgs/MOCO.png" alt="SSL4EO-MOCO Logo"></div>
+          <div class="logo"><img src="./static/imgs/DINO.png" alt="SSL4EO-DINO Logo"></div>
+          <div class="logo"><img src="./static/imgs/MAE.png" alt="SSL4EO-MAE Logo"></div>
+          <div class="logo"><img src="./static/imgs/data2vec.png" alt="SSL4EO-DATA2VEC Logo"></div>
+          <!-- Duplicate set for seamless looping -->    
+          <div class="logo"><img src="./static/imgs/satlasnet.png" alt="SATLASNET Logo"></div>
+          <div class="logo"><img src="./static/imgs/GFM.png" alt="GFM Logo"></div>
+          <div class="logo"><img src="./static/imgs/CROMA.png" alt="CROMA Logo"></div>
+          <div class="logo"><img src="./static/imgs/scalemae.png" alt="SCALEMAE Logo"></div>
+          <div class="logo"><img src="./static/imgs/prithvi.png" alt="Prithvi Logo"></div>
+          <div class="logo"><img src="./static/imgs/SpectralGPT.png" alt="SpectralGPT Logo"></div>
+          <div class="logo"><img src="./static/imgs/remoteclip.png" alt="REMOTECLIP Logo"></div>
+          <div class="logo"><img src="./static/imgs/DOFA.png" alt="DOFA Logo"></div>
+          <div class="logo"><img src="./static/imgs/MOCO.png" alt="SSL4EO-MOCO Logo"></div>
+          <div class="logo"><img src="./static/imgs/DINO.png" alt="SSL4EO-DINO Logo"></div>
+          <div class="logo"><img src="./static/imgs/MAE.png" alt="SSL4EO-MAE Logo"></div>
+          <div class="logo"><img src="./static/imgs/data2vec.png" alt="SSL4EO-DATA2VEC Logo"></div>
+        </div>
+      </div>
+      <!--<img src="static/images/teaser_thin.jpg">-->
+      <h2 class="subtitle has-text-centered">
+        Emerging Geospatial Foundation Models
+      </h2>
+    </div>
+  </div>
+</section>
 
 
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <div class="image-viewport">
+        <img id="rotatingImage" src="static/images/teaser_circ.jpg" alt="Teaser" />
+      </div>
+      <!--<img src="static/images/teaser_thin.jpg">-->
+      <h2 class="subtitle has-text-centered">
+        <span class="methodname">DGInStyle</span> is a data generation pipeline designed for domain-generalizable semantic segmentation.
+      </h2>
+    </div>
+  </div>
+</section>
 
 <section class="section pt-0">
   <div class="container is-max-desktop">
